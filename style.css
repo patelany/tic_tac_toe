@@ -1,0 +1,72 @@
+html, body {
+    background-color: rgb(209, 246, 246);
+    margin-top: 45px;
+    margin-bottom: 50px;
+}
+h1 {
+    font-family: "Marker Felt Thin", cursive; 
+    text-align: center; 
+    color:rgb(172, 240, 172);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-size: 65px; 
+    margin-top: -50px;;
+}
+button {
+    margin-inline-start: 600px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: large;
+    border-radius: 0.25rem;
+    background: white;
+    margin-top: -80px;
+}
+
+button:hover {
+    background-color:rgb(172, 240, 172);
+}
+
+.cell{
+    width: 150px;
+    height: 150px;
+    border: 2px solid rgb(172, 240, 172);
+    box-shadow: 0 0 0 4px;
+    line-height: 75px;
+    font-size: 90px;
+    cursor: pointer;
+    background-color: rgb(247, 197, 222);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainContainer{
+    font-family: "Marker Felt Thin", cursive; 
+    text-align: center;
+    color:rgb(172, 240, 172);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    background-image: url("https://www.clipartmax.com/png/middle/457-4578426_melting-smiley-face.png");
+    background-repeat: repeat;
+    background-position-x: -246px;
+    background-size: 220px;
+    background-position-y: -90px; 
+}
+
+#gridContainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+    justify-content: center;
+
+}
+
+#displayMessage {
+    font-family: "Marker Felt Thin", cursive; 
+    font-size: 30px;
+    text-align: center;
+    color:rgb(172, 240, 172);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
